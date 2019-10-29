@@ -13,7 +13,7 @@ class MaxdepthTest {
                 {7, 4, 0,0}, 
                 {2, 4, 6,0},
                 {8,5,9,3}}; 
-		int output=max_depth.findMaxDdepth(tri, tri[0].length-1);
+		int output=max_depth.findMaxDepth(tri, tri[0].length-1);
 		assertEquals(23,output);
 	}
 
